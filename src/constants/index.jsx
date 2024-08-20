@@ -1,8 +1,9 @@
-import { BarChart, BarChart2, CheckCircle, CheckSquare, Grid3X3, Home, PieChart, Users } from "lucide-react";
+import { BarChart, BarChart2, CheckCircle, CheckCircle2, CheckSquare, Facebook, Grid3X3, Home, Instagram, InstagramIcon, Linkedin, LinkedinIcon, Locate, Mail, MapPin, Phone, PieChart, Twitter, Users, X } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import ContactForm from "../components/ContactForm"
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -121,33 +122,25 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Reach Us At",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      {name: "+234 1234567890", icon: <Phone />},
+      {name: "contact@sublimesquares.com", icon: <Mail />},
+      {name: "NO. 69 Bama Rd. Maiduguri, Borno State.", icon: <MapPin />},
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Feedback & Queries",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      {name: (<ContactForm />)},
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Collaboration",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      {name: "branding@sublimesquares.com", icon: <Mail />},
+      {name: "Sublime Squares Ltd.", icon: <Linkedin />},
+      {name: "Sublime Squares Ltd.", icon: <Instagram />},
     ],
   },
 ];

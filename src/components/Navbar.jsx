@@ -1,6 +1,6 @@
-import { Menu, X } from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/sublime-logo.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -26,14 +26,13 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
-              Sign In
-            </a>
             <a
-              href="#"
-              className="bg-gradient-to-r from-green-500 to-green-800 py-2 px-3 rounded-md"
+              target="_blank"
+              href="https://github.com/Ahmad-Zahradeen-Tahir/Sublime-Squares-V2"
+              className="bg-gradient-to-r flex from-green-500 to-green-800 py-2 px-3 rounded-md"
             >
-              Create an account
+              <Github />
+              GitHub
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">

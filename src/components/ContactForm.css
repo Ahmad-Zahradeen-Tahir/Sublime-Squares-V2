@@ -1,0 +1,23 @@
+.contact-form > *{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input, .contact-form textarea{
+  border: 1px solid white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-form textarea{
+  height: 150px;
+}

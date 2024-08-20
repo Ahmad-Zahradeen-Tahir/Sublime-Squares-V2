@@ -1,5 +1,5 @@
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
+import video1 from "../assets/solar-loop1.mp4";
+import video2 from "../assets/solar-loop2.mp4";
 
 const HeroSection = () => {
   return (
@@ -21,10 +21,10 @@ const HeroSection = () => {
           href="#"
           className="bg-gradient-to-r from-green-500 to-green-800 py-3 px-4 mx-3 rounded-md"
         >
-          Start for free
+          Get Started
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
+        <a href="#contactus" className="py-3 px-4 mx-3 rounded-md border">
+          Contact Us
         </a>
       </div>
       <div className="flex mt-10 justify-center">
