@@ -1,11 +1,11 @@
 import { CheckCircle2 } from "lucide-react";
 import { pricingOptions } from "../constants";
 
-const Pricing = () => {
+const ContactUs = () => {
   return (
-    <div id="pricing" className="mt-20">
+    <div id="contactus" className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
-        Pricing
+        Contact Us
       </h2>
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
@@ -45,4 +45,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default ContactUs;
