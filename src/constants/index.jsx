@@ -130,7 +130,7 @@ export const pricingOptions = [
     ],
   },
   {
-    title: "Feedback & Queries",
+    title: "Feedback",
     features: [
       {name: (<ContactForm />)},
     ],

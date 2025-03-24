@@ -1,7 +1,7 @@
 .contact-form > *{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 250px;
 }
 .contact-form{
   display: flex;
@@ -11,13 +11,10 @@
 
 .contact-form input, .contact-form textarea{
   border: 1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
   outline: none;
-  border-radius: 5px;
   font-size: 19px;
-  padding: 10px;
   width: 100%;
-}
-
-.contact-form textarea{
-  height: 150px;
 }
