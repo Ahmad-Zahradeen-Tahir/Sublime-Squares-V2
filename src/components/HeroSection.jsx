@@ -1,5 +1,5 @@
-import video1 from "../assets/solar-loop1.mp4";
-import video2 from "../assets/solar-loop2.mp4";
+import video1 from "../assets/btr.mp4";
+import video2 from "../assets/fixer.mp4";
 
 const HeroSection = () => {
   return (
